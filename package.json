@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/gabrielrtakeda/ourcities-pomodoro/issues"
   },
-  "homepage": "https://github.com/gabrielrtakeda/ourcities-pomodoro#readme"
+  "homepage": "https://github.com/gabrielrtakeda/ourcities-pomodoro#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015-webpack": "^6.4.1",
+    "react": "^15.1.0",
+    "redux": "^3.5.2",
+    "webpack": "^1.13.1"
+  }
 }
