@@ -1,0 +1,25 @@
+{
+  "name": "ourcities-pomodoro",
+  "version": "1.0.0",
+  "description": "Front-end Proficienfy Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gabrielrtakeda/ourcities-pomodoro.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "Gabriel Ramos Takeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielrtakeda/ourcities-pomodoro/issues"
+  },
+  "homepage": "https://github.com/gabrielrtakeda/ourcities-pomodoro#readme"
+}
