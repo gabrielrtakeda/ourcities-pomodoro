@@ -4,9 +4,11 @@
   "description": "Front-end Proficienfy Test",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --content-base app/ -w",
+    "start": "./node_modules/.bin/webpack-dev-server --port 3000 --content-base public/ -w",
+    "prod": "./node_modules/.bin/webpack --config ./webpack.prod.config.js --progress --colors",
     "test": "mocha --compilers js:babel-register --recursive \"**/*.spec.js\"",
-    "test:w": "npm test -- --watch"
+    "test:w": "npm test -- --watch",
+    "postinstall": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -25,21 +27,22 @@
   },
   "homepage": "https://github.com/gabrielrtakeda/ourcities-pomodoro#readme",
   "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015-webpack": "^6.4.1",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "react-redux": "^4.4.5",
-    "redux": "^3.5.2",
-    "webpack": "^1.13.1"
-  },
-  "devDependencies": {
     "babel-register": "^6.9.0",
     "expect": "^1.20.1",
     "mocha": "^2.5.3",
+    "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
 }

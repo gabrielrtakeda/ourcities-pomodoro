@@ -9,21 +9,21 @@ export const DurationOptions = ({
   <div>
     <button
       onClick={pomodoro}
-      style={{color: getActiveColor(state, 'POMODORO')}}
+      style={getActiveColor(state, 'POMODORO')}
     >
       Pomodoro
     </button>
 
     <button
       onClick={shortBreak}
-      style={{color: getActiveColor(state, 'SHORT_BREAK')}}
+      style={getActiveColor(state, 'SHORT_BREAK')}
     >
       Short Break
     </button>
 
     <button
       onClick={longBreak}
-      style={{color: getActiveColor(state, 'LONG_BREAK')}}
+      style={getActiveColor(state, 'LONG_BREAK')}
     >
       Long Break
     </button>
@@ -39,5 +39,5 @@ DurationOptions.propTypes = {
 }
 
 const getActiveColor = (state, current) => {
-  return state.durationOption === current ? 'red' : 'inherit'
+  return { color: state.durationOption === current ? 'green' : 'inherit' }
 }
