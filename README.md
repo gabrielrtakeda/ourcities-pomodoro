@@ -19,7 +19,10 @@ This project requires the installation of following third-part programs:
 To install and run this project, follow the instructions below:
 
 - Install: `npm install`
-- Run (Start server): `npm start`
+- Run (Start server): `npm run dev:w`
+
+# Production
+To bundle all the project to production, run: `npm run prod`
 
 # Tests
 Run tests to improve the quality:

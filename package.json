@@ -4,11 +4,11 @@
   "description": "Front-end Proficienfy Test",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --port 3000 --content-base public/ -w",
+    "start": "node ./index.js",
+    "dev:w": "./node_modules/.bin/webpack-dev-server --port 3000 --content-base public/ -w",
     "prod": "./node_modules/.bin/webpack --config ./webpack.prod.config.js --progress --colors",
     "test": "mocha --compilers js:babel-register --recursive \"**/*.spec.js\"",
-    "test:w": "npm test -- --watch",
-    "postinstall": "node ./index.js"
+    "test:w": "npm test -- --watch"
   },
   "repository": {
     "type": "git",
