@@ -1,0 +1,10 @@
+export const STATUS_STOPPED = 'STOPPED'
+export const STATUS_RUNNING = 'RUNNING'
+
+export const ACTION_START                = 'START'
+export const ACTION_STOPPED              = 'STOPPED'
+export const ACTION_RESET                = 'RESET'
+export const ACTION_TICK                 = 'TICK'
+export const ACTION_DURATION_POMODORO    = 'DURATION_POMODORO'
+export const ACTION_DURATION_SHORT_BREAK = 'DURATION_SHORT_BREAK'
+export const ACTION_DURATION_LONG_BREAK  = 'DURATION_LONG_BREAK'
