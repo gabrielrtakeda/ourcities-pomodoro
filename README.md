@@ -23,6 +23,7 @@ To install and run this project, follow the instructions below:
 
 # Tests
 Run all the tests: `npm test`
+
 Run tests on watch: `npm run test:w`
 
 # Thank's
