@@ -11,9 +11,9 @@ This project was created using tools and frameworks below:
 - Babel (ES6 + React preset transpiler)
 
 # Development Environment Dependencies
-Thi project requires the following third-part programs installation:
+This project requires the installation of following third-part programs:
 
-- NodeJS (which comes the NPM (Node Package Manager))
+- [NodeJS](http://nodejs.org)
 
 # Installation
 To install and run this project, follow the instructions below:
@@ -28,4 +28,4 @@ Run tests to improve the quality:
 - Run tests on watch: `npm run test:w`
 
 # Thank's
-All of OurCities Company (:
+All of OurCities company (:
