@@ -2,14 +2,13 @@ import * as TimeConstants            from './../constants/time'
 import * as DurationOptionsConstants from './../duration-options/constants'
 import * as TimerConstants           from './constants'
 
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
   status         : TimerConstants.STATUS_STOPPED,
   durationOption : DurationOptionsConstants.OPTION_POMODORO,
   duration       : DurationOptionsConstants.DURATION_POMODORO
 }
 
 export const reducer = (state = INITIAL_STATE, action) => {
-
   switch (action.type) {
     /**
      * Timer
@@ -17,7 +16,7 @@ export const reducer = (state = INITIAL_STATE, action) => {
     case TimerConstants.ACTION_START:
       return { ...state, status: TimerConstants.STATUS_RUNNING }
 
-    case TimerConstants.ACTION_STOPPED:
+    case TimerConstants.ACTION_STOP:
       return { ...state, status: TimerConstants.STATUS_STOPPED }
 
     case TimerConstants.ACTION_RESET:

@@ -1,5 +1,5 @@
 export const mmss = (timestamp) => {
-  let date = new Date(timestamp)
+  let date = new Date(Number(timestamp))
   return `${pad(date.getMinutes())}:${pad(date.getSeconds())}`
 }
 

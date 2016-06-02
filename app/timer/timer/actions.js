@@ -1,3 +1,5 @@
+import * as TimerConstants from './constants'
+
 export default {
-  tick : () => { type : 'TICK' },
+  tick : () => { type : TimerConstants.ACTION_TICK },
 }

@@ -22,7 +22,8 @@ To install and run this project, follow the instructions below:
 - Run (Start server): `npm start`
 
 # Tests
-Run the tests: `npm test`
+Run all the tests: `npm test`
+Run tests on watch: `npm run test:w`
 
 # Thank's
 All of OurCities Company (:
