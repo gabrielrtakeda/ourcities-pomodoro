@@ -4,7 +4,7 @@
   "description": "Front-end Proficienfy Test",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --content-base dist/ -w",
+    "start": "./node_modules/.bin/webpack-dev-server --content-base app/ -w",
     "test": "mocha --compilers js:babel-register --recursive",
     "test:watch": "npm test -- --watch"
   },
